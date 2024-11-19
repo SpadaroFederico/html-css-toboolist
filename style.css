@@ -1,21 +1,28 @@
 body{
-    background-color: #F6F8FA ;
+    background-color: #F6F8FA;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
 }
 /* background header */
 #logo{
     background-color: #fff;
-    margin: 0;
     padding: 20px;
-    display: flex;
-    align-items: center;
+    vertical-align: middle;
 }
 /* posizione scritta header */
 #headtext{
+    display: inline-block;
+    line-height: 100%;
+    vertical-align: middle;
     margin-left: 10px;
     font-size: 30px;
 }
 /* background main */
-#background-main{
+main{
     background-color: #fff;
     margin: 100px 200px;
     border-radius: 10px;
@@ -24,18 +31,51 @@ body{
 }
 /* regole buttons */
 #task{
+    padding: 8px;
     background-color: #41AFEC;
     text-align: center;
     border-radius: 4px;
-    border: none;
+    border: 0px ;
     color: #fff;
 }
 #section{
+    padding: 8px;
     background-color: #fff;
     text-align: center;
     border-radius: 4px;
     border: none;
     color: gray;
-    border-color: gray;
-    border: thick;
+    border: 2px solid gray;
+}
+/* Assicurati che il simbolo di check sia inline */
+.check::before {
+    content: "\2713";  
+    margin-right: 8px;  
+    color: green;      
+    font-size: 20px;    
+    display: inline;
+}
+
+/* disposizione contenitore "check" inline*/
+.check {
+    display: inline;  
+    align-items: center;   
+}
+
+/* disposizione "h4" inline*/
+h4 {
+    display: inline;      
+    margin-left: 5px;      
+}
+
+/* regole highlights pagina */
+.highlights{
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #41AFEC;
+    display: inline;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
 }
