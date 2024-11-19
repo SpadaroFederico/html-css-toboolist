@@ -6,5 +6,36 @@ body{
     background-color: #fff;
     margin: 0;
     padding: 20px;
+    display: flex;
+    align-items: center;
 }
-/* backgound generale */
+/* posizione scritta header */
+#headtext{
+    margin-left: 10px;
+    font-size: 30px;
+}
+/* background main */
+#background-main{
+    background-color: #fff;
+    margin: 100px 200px;
+    border-radius: 10px;
+    padding: 100px;
+    height: 550px;
+}
+/* regole buttons */
+#task{
+    background-color: #41AFEC;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+}
+#section{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    color: gray;
+    border-color: gray;
+    border: thick;
+}
