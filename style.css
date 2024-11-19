@@ -62,14 +62,27 @@ main{
     align-items: center;   
 }
 
+.notcheck::before{
+    content: "\003A7";  
+    margin-right: 8px;  
+    color: red;      
+    font-size: 20px;    
+    display: inline;
+}
+
+.notcheck{
+    display: inline;  
+    align-items: center;     
+}
+
 /* disposizione "h4" inline*/
 h4 {
     display: inline;      
     margin-left: 5px;      
 }
 
-/* regole highlights pagina */
-.highlights{
+/* regole highlights blu pagina */
+.highlights-blue{
     padding: 5px;
     width: 5px;
     height: 5px;
@@ -78,4 +91,47 @@ h4 {
     border-radius: 10px;
     color: #fff;
     font-size: 12px;
+}
+
+/* regole highlights viola pagina */
+.highlights-purple{
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #9C72E7;
+    display: inline;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* regole highlights verde pagina */
+.highlights-green{
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #68C0A8;
+    display: inline;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* regole highlights arancione pagina */
+.highlights-orange{
+    padding: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #F79E33;
+    display: inline;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* regole lista */
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
